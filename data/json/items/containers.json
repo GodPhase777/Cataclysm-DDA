@@ -193,7 +193,7 @@
     "category": "container",
     "name": { "str": "zipper bag" },
     "looks_like": "bag_plastic",
-    "description": "An inexpensive flexible rectangular storage bag on its typical small size.  Transparent and made of plastic, it can be sealed and opened by a slider which works in a similar way to a zip fastener.",
+    "description": "An inexpensive flexible rectangular storage bag in a small size.  Transparent and made of plastic, it can be sealed and opened by a slider which works in a similar way to a zip fastener.",
     "weight": "2 g",
     "volume": "10 ml",
     "price": 0,
@@ -207,6 +207,58 @@
         "max_contains_weight": "750 g",
         "spoil_multiplier": 0.8,
         "moves": 400
+      }
+    ],
+    "symbol": ")",
+    "color": "light_gray",
+    "flags": [ "TRADER_AVOID" ]
+  },
+  {
+    "id": "bag_zipper_medium",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "medium zipper bag" },
+    "looks_like": "bag_plastic",
+    "description": "An inexpensive flexible rectangular storage bag in a medium size.  Transparent and made of plastic, it can be sealed and opened by a slider which works in a similar way to a zip fastener.",
+    "weight": "7.5 g",
+    "volume": "38 ml",
+    "price": 0,
+    "price_postapoc": 10,
+    "material": [ "plastic" ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "max_contains_volume": "946 ml",
+        "max_contains_weight": "2835 g",
+        "spoil_multiplier": 0.8,
+        "moves": 500
+      }
+    ],
+    "symbol": ")",
+    "color": "light_gray",
+    "flags": [ "TRADER_AVOID" ]
+  },
+  {
+    "id": "bag_zipper_large",
+    "type": "GENERIC",
+    "category": "container",
+    "name": { "str": "large zipper bag" },
+    "looks_like": "bag_plastic",
+    "description": "An inexpensive flexible rectangular storage bag in a large size.  Transparent and made of plastic, it can be sealed and opened by a slider which works in a similar way to a zip fastener.",
+    "weight": "30 g",
+    "volume": "151 ml",
+    "price": 0,
+    "price_postapoc": 10,
+    "material": [ "plastic" ],
+    "pocket_data": [
+      {
+        "pocket_type": "CONTAINER",
+        "watertight": true,
+        "max_contains_volume": "3785 ml",
+        "max_contains_weight": "11355 g",
+        "spoil_multiplier": 0.8,
+        "moves": 700
       }
     ],
     "symbol": ")",
